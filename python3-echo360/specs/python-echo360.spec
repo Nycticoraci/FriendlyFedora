@@ -41,12 +41,16 @@ rm -rf %{pypi_name}.egg-info
 
 %install
 %py3_install
+touch %{buildroot}/%{_bindir}/echo360Downloader.log
+touch %{buildroot}/%{_bindir}/webdriver_service.log
 
 %files -n python3-%{pypi_name}
 %doc README.md
-%{_bindir}/echo360-download
 %{python3_sitelib}/%{pypi_name}
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
+%{_bindir}/echo360-download
+%attr (666, root, root) %{_bindir}/echo360Downloader.log
+%attr (666, root, root) %{_bindir}/webdriver_service.log
 
 %changelog
 * Sat Jan 02 2021 Gerard Bechard - 2.0.3-1
