@@ -6,15 +6,14 @@ Packaged in Fedora 33:
 5. Slack (general communication)
 6. FireFox
 7. Google Chrome
+8. VMware
+9. Echo360
 
 
 
 Need to Package:
-1. VMware Client
-2. Echo360
-3. Bitwarden
-3a. CLI dependencies
-4. Pulse Secure
+1. Bitwarden
+2. Pulse Secure
 
 
 Else:
