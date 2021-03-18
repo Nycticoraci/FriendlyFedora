@@ -4,10 +4,11 @@ Packaged in Fedora 33:
 3. rclone
 4. Discord
 5. Slack 
-6. FireFox
-7. Google Chrome
-8. VMware
-9. Echo360
+6. Signal Desktop
+7. FireFox
+8. Google Chrome
+9. VMware
+10. Echo360
 
 
 
@@ -17,8 +18,11 @@ Need to Package:
 
 
 Else:
-- PDF clients
-- Email clients
--- Thunderbird
-- Text editors
---  atom
+
+Enable rpm-fusion
+- are we posting our own stuff or is it all going into rpm-fusion?
+
+Customized UI
+- logo, welcome to friendly fedora
+- where to find inital setup source files
+
