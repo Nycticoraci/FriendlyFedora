@@ -2,8 +2,8 @@ Packaged in Fedora 33:
 1. KiCAD (ECE)
 2. FreeCAD (MECHE)
 3. rclone
-4. Discord (general communication)
-5. Slack (general communication)
+4. Discord
+5. Slack 
 6. FireFox
 7. Google Chrome
 8. VMware
