@@ -6,7 +6,7 @@ Release:        1%{?dist}
 Summary:        A light-weight module that brings window.fetch to node.js
 
 License: 	MIT
-URL:		https://github.com/dropbox/zxcvbn
+URL:		https://github.com/bitinn/node-fetch
 Source0:	http://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
 
 BuildArch:	noarch

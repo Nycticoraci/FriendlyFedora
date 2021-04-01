@@ -6,7 +6,7 @@ Release:        1%{?dist}
 Summary:        JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.
 
 License: 	MIT
-URL:		https://github.com/dropbox/zxcvbn
+URL:		https://github.com/digitalbazaar/forge
 Source0:	http://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
 
 BuildArch:	noarch
