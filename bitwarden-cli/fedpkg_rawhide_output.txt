@@ -1,0 +1,155 @@
+sources file doesn't exist. Source files download skipped.
+
+
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IvV5Z1
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd /home/gerry/pkgs/bitwarden-cli
++ rm -rf package
++ /usr/bin/gzip -dc /home/gerry/pkgs/bitwarden-cli/cli-1.15.1.tgz
++ /usr/bin/tar -xof -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd package
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ cp /home/gerry/pkgs/bitwarden-cli/bitwarden-cli-1.15.1-bundled-licenses.txt .
++ tar xfz /home/gerry/pkgs/bitwarden-cli/bitwarden-cli-1.15.1-nm-prod.tgz
++ mkdir -p node_modules
++ pushd node_modules
+~/pkgs/bitwarden-cli/package/node_modules ~/pkgs/bitwarden-cli/package
++ ln -s ../node_modules_prod/abab ../node_modules_prod/acorn ../node_modules_prod/acorn-globals ../node_modules_prod/acorn-walk ../node_modules_prod/agent-base ../node_modules_prod/ajv ../node_modules_prod/ansi-escapes ../node_modules_prod/ansi-regex ../node_modules_prod/ansi-styles ../node_modules_prod/array-equal ../node_modules_prod/asn1 ../node_modules_prod/assert-plus ../node_modules_prod/async-limiter ../node_modules_prod/asynckit ../node_modules_prod/aws-sign2 ../node_modules_prod/aws4 ../node_modules_prod/bcrypt-pbkdf ../node_modules_prod/big-integer ../node_modules_prod/browser-hrtime ../node_modules_prod/browser-process-hrtime ../node_modules_prod/caseless ../node_modules_prod/chalk ../node_modules_prod/chardet ../node_modules_prod/cli-cursor ../node_modules_prod/cli-width ../node_modules_prod/color-convert ../node_modules_prod/color-name ../node_modules_prod/combined-stream ../node_modules_prod/commander ../node_modules_prod/core-util-is ../node_modules_prod/cssom ../node_modules_prod/cssstyle ../node_modules_prod/dashdash ../node_modules_prod/data-urls ../node_modules_prod/debug ../node_modules_prod/deep-is ../node_modules_prod/delayed-stream ../node_modules_prod/domexception ../node_modules_prod/ecc-jsbn ../node_modules_prod/escape-string-regexp ../node_modules_prod/escodegen ../node_modules_prod/esprima ../node_modules_prod/estraverse ../node_modules_prod/esutils ../node_modules_prod/extend ../node_modules_prod/external-editor ../node_modules_prod/extsprintf ../node_modules_prod/fast-deep-equal ../node_modules_prod/fast-json-stable-stringify ../node_modules_prod/fast-levenshtein ../node_modules_prod/figures ../node_modules_prod/forever-agent ../node_modules_prod/form-data ../node_modules_prod/getpass ../node_modules_prod/graceful-fs ../node_modules_prod/har-schema ../node_modules_prod/har-validator ../node_modules_prod/has-flag ../node_modules_prod/html-encoding-sniffer ../node_modules_prod/http-signature ../node_modules_prod/https-proxy-agent ../node_modules_prod/iconv-lite ../node_modules_prod/inquirer ../node_modules_prod/is-docker ../node_modules_prod/is-fullwidth-code-point ../node_modules_prod/is-promise ../node_modules_prod/is-typedarray ../node_modules_prod/is-wsl ../node_modules_prod/isstream ../node_modules_prod/jsbn ../node_modules_prod/jsdom ../node_modules_prod/json-schema ../node_modules_prod/json-schema-traverse ../node_modules_prod/json-stringify-safe ../node_modules_prod/jsprim ../node_modules_prod/levn ../node_modules_prod/lodash ../node_modules_prod/lodash.sortby ../node_modules_prod/lowdb ../node_modules_prod/lunr ../node_modules_prod/mime-db ../node_modules_prod/mime-types ../node_modules_prod/mimic-fn ../node_modules_prod/ms ../node_modules_prod/mute-stream ../node_modules_prod/node-fetch ../node_modules_prod/node-forge ../node_modules_prod/nwsapi ../node_modules_prod/oauth-sign ../node_modules_prod/onetime ../node_modules_prod/open ../node_modules_prod/optionator ../node_modules_prod/os-tmpdir ../node_modules_prod/papaparse ../node_modules_prod/parse5 ../node_modules_prod/performance-now ../node_modules_prod/pify ../node_modules_prod/pn ../node_modules_prod/prelude-ls ../node_modules_prod/psl ../node_modules_prod/punycode ../node_modules_prod/qs ../node_modules_prod/request ../node_modules_prod/request-promise-core ../node_modules_prod/request-promise-native ../node_modules_prod/restore-cursor ../node_modules_prod/run-async ../node_modules_prod/rxjs ../node_modules_prod/safe-buffer ../node_modules_prod/safer-buffer ../node_modules_prod/saxes ../node_modules_prod/signal-exit ../node_modules_prod/source-map ../node_modules_prod/sshpk ../node_modules_prod/stealthy-require ../node_modules_prod/steno ../node_modules_prod/string-width ../node_modules_prod/strip-ansi ../node_modules_prod/supports-color ../node_modules_prod/symbol-tree ../node_modules_prod/through ../node_modules_prod/tldjs ../node_modules_prod/tmp ../node_modules_prod/tough-cookie ../node_modules_prod/tr46 ../node_modules_prod/tslib ../node_modules_prod/tunnel-agent ../node_modules_prod/tweetnacl ../node_modules_prod/type-check ../node_modules_prod/uri-js ../node_modules_prod/uuid ../node_modules_prod/verror ../node_modules_prod/w3c-hr-time ../node_modules_prod/w3c-xmlserializer ../node_modules_prod/webidl-conversions ../node_modules_prod/whatwg-encoding ../node_modules_prod/whatwg-mimetype ../node_modules_prod/whatwg-url ../node_modules_prod/word-wrap ../node_modules_prod/ws ../node_modules_prod/xml-name-validator ../node_modules_prod/xmlchars ../node_modules_prod/zxcvbn .
++ ln -s ../node_modules_prod/.bin .
++ sed -i 's/#!.*/#!\/usr\/bin\/coffee/' ../node_modules_prod/performance-now/test/scripts/delayed-call.coffee ../node_modules_prod/performance-now/test/scripts/delayed-require.coffee ../node_modules_prod/performance-now/test/scripts/difference.coffee ../node_modules_prod/performance-now/test/scripts/initial-value.coffee
++ popd
+~/pkgs/bitwarden-cli/package
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.GyQp42
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd package
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Cw1q4Z
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ '[' /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64 '!=' / ']'
++ rm -rf /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64
+++ dirname /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64
++ mkdir -p /home/gerry/rpmbuild/BUILDROOT
++ mkdir /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64
++ cd package
++ mkdir -p /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/lib/node_modules/bitwarden-cli
++ cp -pr . /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/lib/node_modules/bitwarden-cli
++ cp -pr node_modules node_modules_prod /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/lib/node_modules/bitwarden-cli
++ chmod +x /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/lib/node_modules/bitwarden-cli/build/bw.js
++ mkdir -p /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/bin
++ ln -sf /usr/lib/node_modules/bitwarden-cli/build/bw.js /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/bin/bw
++ /usr/lib/rpm/find-debuginfo.sh -j12 --strict-build-id -m -i --build-id-seed 1.15.1-1.fc35 --unique-debug-suffix -1.15.1-1.fc35.x86_64 --unique-debug-src-base bitwarden-cli-1.15.1-1.fc35.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 -S debugsourcefiles.list /home/gerry/pkgs/bitwarden-cli/package
+find: 'debug': No such file or directory
++ '[' '%{buildarch}' = noarch ']'
++ QA_CHECK_RPATHS=1
++ case "${QA_CHECK_RPATHS:-}" in
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+mangling shebang in /usr/lib/node_modules/bitwarden-cli/node_modules_prod/lunr/build/release.sh from /usr/bin/env bash to #!/usr/bin/bash
+mangling shebang in /usr/lib/node_modules/bitwarden-cli/node_modules_prod/open/xdg-open from /bin/sh to #!/usr/bin/sh
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/LICENSE is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/README.md is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/regexps-iri.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/util.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/index.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/index.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/mailto.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/http.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/wss.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/https.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/ws.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/urn.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/urn-uuid.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/https.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/ws.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/http.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/urn-uuid.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/urn.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/wss.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/schemes/mailto.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/uri.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/regexps-uri.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/util.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/regexps-uri.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/regexps-iri.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/esnext/uri.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/es5/uri.all.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/es5/uri.all.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/es5/uri.all.min.d.ts is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/dist/es5/uri.all.min.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/uri-js/yarn.lock is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/LICENSE is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/README.md is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/test.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/index.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/lib/ec.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/lib/LICENSE-jsbn is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/ecc-jsbn/lib/sec.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/request/index.js is executable but has no shebang, removing executable bit
+*** WARNING: ./usr/lib/node_modules/bitwarden-cli/node_modules_prod/papaparse/papaparse.js is executable but has no shebang, removing executable bit
+Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.JZGa60
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd package
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Processing files: bitwarden-cli-1.15.1-1.fc35.noarch
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.jzpfVZ
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd package
++ DOCDIR=/home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/doc/bitwarden-cli
++ export LC_ALL=C
++ LC_ALL=C
++ export DOCDIR
++ /usr/bin/mkdir -p /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/doc/bitwarden-cli
++ cp -pr README.md /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/doc/bitwarden-cli
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.PsGPi3
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd package
++ LICENSEDIR=/home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/licenses/bitwarden-cli
++ export LC_ALL=C
++ LC_ALL=C
++ export LICENSEDIR
++ /usr/bin/mkdir -p /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/licenses/bitwarden-cli
++ cp -pr LICENSE.txt /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/licenses/bitwarden-cli
++ cp -pr bitwarden-cli-1.15.1-bundled-licenses.txt /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64/usr/share/licenses/bitwarden-cli
++ RPM_EC=0
+++ jobs -p
++ exit 0
+warning: absolute symlink: /usr/bin/bw -> /usr/lib/node_modules/bitwarden-cli/build/bw.js
+Provides: bitwarden-cli = 1.15.1-1.fc35 bundled(nodejs-abab) = 2.0.5 bundled(nodejs-acorn) = 6.4.2 bundled(nodejs-acorn-globals) = 4.3.4 bundled(nodejs-acorn-walk) = 6.2.0 bundled(nodejs-agent-base) = 6.0.2 bundled(nodejs-ajv) = 6.12.6 bundled(nodejs-ansi-escapes) = 3.2.0 bundled(nodejs-ansi-regex) = 3.0.0 bundled(nodejs-ansi-styles) = 3.2.1 bundled(nodejs-array-equal) = 1.0.0 bundled(nodejs-asn1) = 0.2.4 bundled(nodejs-assert-plus) = 1.0.0 bundled(nodejs-async-limiter) = 1.0.1 bundled(nodejs-asynckit) = 0.4.0 bundled(nodejs-aws-sign2) = 0.7.0 bundled(nodejs-aws4) = 1.11.0 bundled(nodejs-bcrypt-pbkdf) = 1.0.2 bundled(nodejs-big-integer) = 1.6.36 bundled(nodejs-browser-hrtime) = 1.1.8 bundled(nodejs-browser-process-hrtime) = 1.0.0 bundled(nodejs-caseless) = 0.12.0 bundled(nodejs-chalk) = 2.4.1 bundled(nodejs-chardet) = 0.7.0 bundled(nodejs-cli-cursor) = 2.1.0 bundled(nodejs-cli-width) = 2.2.1 bundled(nodejs-color-convert) = 1.9.3 bundled(nodejs-color-name) = 1.1.3 bundled(nodejs-combined-stream) = 1.0.6 bundled(nodejs-commander) = 7.0.0 bundled(nodejs-core-util-is) = 1.0.2 bundled(nodejs-cssom) = 0.3.8 bundled(nodejs-cssstyle) = 1.4.0 bundled(nodejs-dashdash) = 1.14.1 bundled(nodejs-data-urls) = 1.1.0 bundled(nodejs-debug) = 4.3.1 bundled(nodejs-deep-is) = 0.1.3 bundled(nodejs-delayed-stream) = 1.0.0 bundled(nodejs-domexception) = 1.0.1 bundled(nodejs-ecc-jsbn) = 0.1.2 bundled(nodejs-escape-string-regexp) = 1.0.5 bundled(nodejs-escodegen) = 1.14.3 bundled(nodejs-esprima) = 4.0.1 bundled(nodejs-estraverse) = 4.3.0 bundled(nodejs-esutils) = 2.0.3 bundled(nodejs-extend) = 3.0.2 bundled(nodejs-external-editor) = 3.1.0 bundled(nodejs-extsprintf) = 1.3.0 bundled(nodejs-fast-deep-equal) = 3.1.3 bundled(nodejs-fast-json-stable-stringify) = 2.1.0 bundled(nodejs-fast-levenshtein) = 2.0.6 bundled(nodejs-figures) = 2.0.0 bundled(nodejs-forever-agent) = 0.6.1 bundled(nodejs-form-data) = 2.3.2 bundled(nodejs-getpass) = 0.1.7 bundled(nodejs-graceful-fs) = 4.2.6 bundled(nodejs-har-schema) = 2.0.0 bundled(nodejs-har-validator) = 5.1.5 bundled(nodejs-has-flag) = 3.0.0 bundled(nodejs-html-encoding-sniffer) = 1.0.2 bundled(nodejs-http-signature) = 1.2.0 bundled(nodejs-https-proxy-agent) = 5.0.0 bundled(nodejs-iconv-lite) = 0.4.24 bundled(nodejs-inquirer) = 6.2.0 bundled(nodejs-is-docker) = 2.1.1 bundled(nodejs-is-fullwidth-code-point) = 2.0.0 bundled(nodejs-is-promise) = 2.2.2 bundled(nodejs-is-typedarray) = 1.0.0 bundled(nodejs-is-wsl) = 2.2.0 bundled(nodejs-isstream) = 0.1.2 bundled(nodejs-jsbn) = 0.1.1 bundled(nodejs-jsdom) = 13.2.0 bundled(nodejs-json-schema) = 0.2.3 bundled(nodejs-json-schema-traverse) = 0.4.1 bundled(nodejs-json-stringify-safe) = 5.0.1 bundled(nodejs-jsprim) = 1.4.1 bundled(nodejs-levn) = 0.3.0 bundled(nodejs-lodash) = 4.17.21 bundled(nodejs-lodash.sortby) = 4.7.0 bundled(nodejs-lowdb) = 1.0.0 bundled(nodejs-lunr) = 2.3.3 bundled(nodejs-mime-db) = 1.46.0 bundled(nodejs-mime-types) = 2.1.29 bundled(nodejs-mimic-fn) = 1.2.0 bundled(nodejs-ms) = 2.1.2 bundled(nodejs-mute-stream) = 0.0.7 bundled(nodejs-node-fetch) = 2.2.0 bundled(nodejs-node-forge) = 0.7.6 bundled(nodejs-nwsapi) = 2.2.0 bundled(nodejs-oauth-sign) = 0.9.0 bundled(nodejs-onetime) = 2.0.1 bundled(nodejs-open) = 7.1.0 bundled(nodejs-optionator) = 0.8.3 bundled(nodejs-os-tmpdir) = 1.0.2 bundled(nodejs-papaparse) = 4.6.0 bundled(nodejs-parse5) = 5.1.0 bundled(nodejs-performance-now) = 2.1.0 bundled(nodejs-pify) = 3.0.0 bundled(nodejs-pn) = 1.1.0 bundled(nodejs-prelude-ls) = 1.1.2 bundled(nodejs-psl) = 1.8.0 bundled(nodejs-punycode) = 1.4.1 bundled(nodejs-punycode) = 2.1.1 bundled(nodejs-qs) = 6.5.2 bundled(nodejs-request) = 2.88.2 bundled(nodejs-request-promise-core) = 1.1.4 bundled(nodejs-request-promise-native) = 1.0.9 bundled(nodejs-restore-cursor) = 2.0.0 bundled(nodejs-run-async) = 2.4.1 bundled(nodejs-rxjs) = 6.6.7 bundled(nodejs-safe-buffer) = 5.2.1 bundled(nodejs-safer-buffer) = 2.1.2 bundled(nodejs-saxes) = 3.1.11 bundled(nodejs-signal-exit) = 3.0.3 bundled(nodejs-source-map) = 0.6.1 bundled(nodejs-sshpk) = 1.16.1 bundled(nodejs-stealthy-require) = 1.1.1 bundled(nodejs-steno) = 0.4.4 bundled(nodejs-string-width) = 2.1.1 bundled(nodejs-strip-ansi) = 4.0.0 bundled(nodejs-supports-color) = 5.5.0 bundled(nodejs-symbol-tree) = 3.2.4 bundled(nodejs-through) = 2.3.8 bundled(nodejs-tldjs) = 2.3.1 bundled(nodejs-tmp) = 0.0.33 bundled(nodejs-tough-cookie) = 2.5.0 bundled(nodejs-tr46) = 1.0.1 bundled(nodejs-tslib) = 1.14.1 bundled(nodejs-tunnel-agent) = 0.6.0 bundled(nodejs-tweetnacl) = 0.14.5 bundled(nodejs-type-check) = 0.3.2 bundled(nodejs-uri-js) = 4.4.1 bundled(nodejs-uuid) = 3.4.0 bundled(nodejs-verror) = 1.10.0 bundled(nodejs-w3c-hr-time) = 1.0.2 bundled(nodejs-w3c-xmlserializer) = 1.1.2 bundled(nodejs-webidl-conversions) = 4.0.2 bundled(nodejs-whatwg-encoding) = 1.0.5 bundled(nodejs-whatwg-mimetype) = 2.3.0 bundled(nodejs-whatwg-url) = 7.1.0 bundled(nodejs-word-wrap) = 1.2.3 bundled(nodejs-ws) = 6.2.1 bundled(nodejs-xml-name-validator) = 3.0.0 bundled(nodejs-xmlchars) = 2.2.0 bundled(nodejs-zxcvbn) = 4.4.2 npm(@bitwarden/cli) = 1.15.1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/bash /usr/bin/coffee /usr/bin/env /usr/bin/sh
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64
+Wrote: /home/gerry/pkgs/bitwarden-cli/bitwarden-cli-1.15.1-1.fc35.src.rpm
+Wrote: /home/gerry/pkgs/bitwarden-cli/noarch/bitwarden-cli-1.15.1-1.fc35.noarch.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.a7PZ4Y
++ umask 022
++ cd /home/gerry/pkgs/bitwarden-cli
++ cd package
++ /usr/bin/rm -rf /home/gerry/rpmbuild/BUILDROOT/bitwarden-cli-1.15.1-1.fc35.x86_64
++ RPM_EC=0
+++ jobs -p
++ exit 0
