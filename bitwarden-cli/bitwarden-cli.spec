@@ -7,7 +7,7 @@ Summary:        A secure and free password manager for all of your devices
 
 License: 	GPLv3
 URL:		https://bitwarden.com/
-Source0: 	https://registry.npmjs.org/@%{npm_name}/cli/-/cli-%{version}.tgz
+Source0: 	https://registry.npmjs.org/@bitwarden/cli/-/cli-%{version}.tgz
 Source1:	%{npm_name}-%{version}-nm-prod.tgz
 Source2:	%{npm_name}-%{version}-nm-dev.tgz
 Source3:	%{npm_name}-%{version}-bundled-licenses.txt
