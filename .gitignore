@@ -1,5 +1,4 @@
 *.tgz
-*.src.rpm
 *.log
 *licenses.txt
 **/package
