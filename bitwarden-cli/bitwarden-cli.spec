@@ -4,7 +4,7 @@
 
 Name:           bitwarden-cli
 Version:        1.15.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Bitwarden vault CLI tool
 
 # json-schema is (AFLv2.1 or BSD)
@@ -92,13 +92,16 @@ ln -s ../../%{nodejs_sitelib}/%{npm_name}/build/bw.js bw
 %license LICENSE.txt @%{name}-%{version}-bundled-licenses.txt
 %doc README.md
 %{_bindir}/bw
-# dir #{nodejs_sitelib}/@bitwarden
+%dir %{nodejs_sitelib}/@bitwarden
 %{nodejs_sitelib}/%{npm_name}
 
 
 %changelog
+* Wed Apr 07 2021 Michael Wojcik <michael_wojcik@fedoraproject.org> - 1.15.1-2
+- Update SPEC file
+
 * Mon Apr 05 2021 Gerard Bechard <gbechard@fedoraproject.org> - 1.15.1-1
 - Update bw bin attributes, added bundled dependencies comment
+
 * Tue Jan 19 2021 Michel Alexandre Salim <salimma@fedoraproject.org> - 1.13.3-1
 - Initial package
-
