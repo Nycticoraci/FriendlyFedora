@@ -47,5 +47,5 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
-* Sat Jan 02 2021 Gerard Bechard - 1.0.0-1
+* Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 1.0.0-1
 - Initial package.
