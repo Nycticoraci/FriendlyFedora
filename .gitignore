@@ -1,5 +1,10 @@
 *.tgz
+*.tar.gz
+*.zip
 *.log
 *licenses.txt
 **/package
 **/noarch
+**/pick*
+**/wget*
+**/ffmpy*
