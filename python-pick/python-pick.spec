@@ -3,16 +3,16 @@
 
 Name:           python-%{pypi_name}
 Version:        1.0.0
-Release:        1%{?dist}
-Summary:        pick an option in the terminal with a simple GUI
+Release:        2%{?dist}
+Summary:        Pick an option in the terminal with a simple GUI
 
 License:        MIT
-URL:            https://github.com/wong2/pick
-Source0:        %{pypi_source}
+URL:            https://github.com/wong2/%{pypi_name}
+Source0:        https://github.com/wong2/%{pypi_name}/archive/v%{version}.tar.gz#/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
-BuildRequires:  python3dist(nose)
+BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(setuptools)
 
 %global _description %{expand:
@@ -38,7 +38,7 @@ rm -rf %{pypi_name}.egg-info
 %py3_install
 
 %check
-%{__python3} setup.py test
+pytest
 
 %files -n python3-%{pypi_name}
 %license LICENSE
@@ -47,5 +47,8 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
+* Mon Apr 19 2021 Gerard Bechard <gbechard@fedoraproject.org> - 1.0.0-2
+- Update tests.
+
 * Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 1.0.0-1
 - Initial package.
