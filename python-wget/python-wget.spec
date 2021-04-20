@@ -45,5 +45,5 @@ chmod a+x %{buildroot}%{python3_sitelib}/wget.py
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
-Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 3.2
+* Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 3.2
 - Initial package.
