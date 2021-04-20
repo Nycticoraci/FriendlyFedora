@@ -40,10 +40,11 @@ chmod a+x %{buildroot}%{python3_sitelib}/wget.py
 
 %files -n python3-%{pypi_name}
 %doc README.txt
-%{python3_sitelib}/__pycache__/*
-%{python3_sitelib}/%{pypi_name}.py
+%pycached %{python3_sitelib}/%{pypi_name}.py
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
+* Tues Apr 20 2021 Manuel Martinez <mannyy687@fedoraproject.org> - 3.2
+
 * Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 3.2
 - Initial package.
