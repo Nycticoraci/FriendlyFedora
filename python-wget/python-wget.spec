@@ -45,6 +45,6 @@ chmod a+x %{buildroot}%{python3_sitelib}/wget.py
 
 %changelog
 * Tue Apr 20 2021 Manuel Martinez <mannyy687@fedoraproject.org> - 3.2
-
+- Update files
 * Mon Apr 12 2021 Gerard Bechard <gbechard@fedoraproject.org> - 3.2
 - Initial package.
