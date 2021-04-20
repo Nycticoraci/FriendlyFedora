@@ -4,7 +4,7 @@
 Name:           python-%{pypi_name}
 Version:        3.2
 Release:        1%{?dist}
-Summary:        pure python download utility
+Summary:        Pure python download utility
 
 License:        Public Domain
 URL:            http://bitbucket.org/techtonik/python-wget/
