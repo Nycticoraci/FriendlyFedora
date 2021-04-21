@@ -7,8 +7,8 @@ Release:        2%{?dist}
 Summary:        Pick an option in the terminal with a simple GUI
 
 License:        MIT
-URL:            https://github.com/wong2/%{pypi_name}
-Source0:        https://github.com/wong2/%{pypi_name}/archive/v%{version}.tar.gz#/%{pypi_name}-%{version}.tar.gz
+URL:            https://github.com/wong2/pick
+Source0:        https://github.com/wong2/%{pypi_name}/archive/v%{version}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
