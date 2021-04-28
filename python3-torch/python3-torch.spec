@@ -1,13 +1,13 @@
-%global pypi_name torch
+%global pypi_name pytorch
 
 Name:           python-%{pypi_name}
 Version:        1.8.1
 Release:        1%{?dist}
-Summary:	Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+Summary:        Tensors and Dynamic neural networks in Python with strong GPU acceleration.
 
 License:        None
 URL:            http://pytorch.org/#pip-install-pytorch
-Source0:        %{pypi_source}
+Source0:        https://github.com/pytorch/pytorch/archive/refs/tags/v1.8.1.tar.gz
 BuildArch:      noarch
 
 %global _description %{expand:
@@ -30,6 +30,7 @@ Summary:        %{summary}
 %build
 %py3_build
 
+
 %install
 %py3_install
 
@@ -38,5 +39,5 @@ Summary:        %{summary}
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
-* Wed Apr 14 2021 jaki <jacqueline_elaine@outlook.com> - 0.1.2-1
+* Wed Apr 14 2021 jaki <jacqueline_elaine@outlook.com> - 1.8.1-1
 - Initial package.
